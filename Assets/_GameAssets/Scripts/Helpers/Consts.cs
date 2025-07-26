@@ -7,4 +7,11 @@ public class Consts
         public const string IS_SLIDING = "IsSliding";
         public const string IS_SLIDING_ACTIVE = "IsSlidingActive";
     }
+
+    public struct WheatTypes
+    {
+        public const string GOLD_WHEAT = "GoldWheat";
+        public const string HOLY_WHEAT = "HolyWheat";
+        public const string ROTTEN_WHEAT = "RottenWheat";
+    }
 }
