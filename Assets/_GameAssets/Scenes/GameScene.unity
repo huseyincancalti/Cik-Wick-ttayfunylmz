@@ -2069,6 +2069,8 @@ MonoBehaviour:
   _jumpKey: 32
   _jumpForce: 8
   _jumpCooldown: 0.5
+  _airMultiplier: 0.2
+  _airDrag: 0.75
   _canJump: 1
   _slideKey: 113
   _slideMultiplier: 2
