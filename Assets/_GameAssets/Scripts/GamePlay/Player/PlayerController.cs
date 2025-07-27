@@ -4,6 +4,7 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     public event Action OnPlayerJumped;
+    public event Action<PlayerState> OnPlayerStateChanged;
 
     //-------------------------------------------------------------------------
 
@@ -117,6 +118,7 @@ public class PlayerController : MonoBehaviour
         if (newState != currentState)
         {
             _stateController.ChangeState(newState);
+            OnPlayerStateChanged?.Invoke(newState);
         }
     }
 
