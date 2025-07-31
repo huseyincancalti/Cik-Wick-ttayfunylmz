@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 7065622053726825973}
   - component: {fileID: 3902903812667198670}
   - component: {fileID: 4690613347039741999}
+  - component: {fileID: 753825631732034497}
   m_Layer: 6
   m_Name: WallDoorway
   m_TagString: Untagged
@@ -87,6 +88,22 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!208 &753825631732034497
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3346665785703776935}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 3.0000002, y: 6.0000005, z: 0.75000006}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 6.0000005, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &4674967378507959137
 GameObject:
   m_ObjectHideFlags: 0
