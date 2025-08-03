@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using UnityEngine;
+using UnityEngine.Playables;
 
 public class GameManager : MonoBehaviour
 {
@@ -52,7 +53,7 @@ public class GameManager : MonoBehaviour
 
     private void OnEnable()
     {
-        ChangeGameState(GameState.Play);
+        ChangeGameState(GameState.CutScene);
     }
 
     public void ChangeGameState(GameState gameState)
@@ -86,5 +87,10 @@ public class GameManager : MonoBehaviour
     public GameState GetCurrentGameState()
     {
         return _currentGameState;
+    }
+
+    internal void OnTimelinePlayed(PlayableDirector director)
+    {
+        throw new NotImplementedException();
     }
 }
