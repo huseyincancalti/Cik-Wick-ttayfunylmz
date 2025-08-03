@@ -11906,6 +11906,8 @@ MonoBehaviour:
   _musicPassiveSprite: {fileID: 21300000, guid: 5f1b2ea972b168448b4c057a28eb7f2a, type: 3}
   _soundActiveSprite: {fileID: 21300000, guid: b70c31f4b7494cf40ad2dfcb839120cf, type: 3}
   _soundPassiveSprite: {fileID: 21300000, guid: 11231ee54f9eb5948b175a2a69b0d050, type: 3}
+  _isMusicActive: 1
+  _isSoundActive: 1
 --- !u!4 &1879204168 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5612886873859626802, guid: d411905c37db5594b8f8c36baf33195a, type: 3}
