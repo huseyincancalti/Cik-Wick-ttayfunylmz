@@ -8,7 +8,7 @@
 
 ## ⚙️ Installation & Run
 
-drive: (coming soon)
+Google Drive: https://drive.google.com/file/d/1GvPmHDkcAbtzZ9WVP4Mezo6RX4IGu2Xf/view?usp=sharing
 
 > # ⚠️ Note:
 >
